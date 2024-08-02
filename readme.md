@@ -2,6 +2,7 @@
 > Simple mines minigame for Fivem
 
 > [!NOTE]
+> [Preview](https://streamable.com/aq17em)
 > Made by Cave Development
 > Join our [Discord](https://discord.gg/FbPhBGAe8v) for more
 
