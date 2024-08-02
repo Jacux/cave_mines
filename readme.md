@@ -1,10 +1,9 @@
-
 # Cave_mines
+> Simple mines minigame for Fivem
 
-## Mines minigame for Fivem
-
-### Join our [Discord](https://discord.gg/FbPhBGAe8v) for more
-
+> [!NOTE]
+> Made by Cave Development
+> Join our [Discord](https://discord.gg/FbPhBGAe8v) for more
 
 Copyright © 2023 [Jacux](https://github.com/jacux)
 
