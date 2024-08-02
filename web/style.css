@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  transition: all 0.2s ease-out;
+  font-family: "Poppins", sans-serif;
+
+  font-style: normal;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+
+.mines-container {
+  width: 440px;
+  height: auto;
+  background: #181818;
+  padding: 15px;
+  border-radius: 6px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.mines-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 75px);
+  grid-template-rows: repeat(5, 75px);
+  gap: 15px;
+}
+
+.mines-field {
+  width: 75px;
+  height: 75px;
+  border-radius: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.field-diamond {
+  background: #1b6d3c;
+  color: #30ff83;
+  border: 1px solid #30ff83;
+  font-size: 25px;
+}
+
+.field-normal:hover {
+  color: #30ff83;
+  cursor: pointer;
+  border: 1px solid #30ff83;
+}
+
+.field-normal {
+  background-color: #232323;
+  border: 1px solid #636363;
+  color: #636363;
+  font-size: 32px;
+}
+
+.field-bomb {
+  background-color: #6d1b1b;
+  border: 2px solid #f41717;
+  color: #f41717;
+  font-size: 32px;
+}
+
+.mines-bottom {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.mines-multiplier {
+  width: 165px;
+  height: 60px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 6px;
+  font-weight: 600;
+}
+
+.color-green {
+  background-color: #0e4122;
+  border: 1px solid #30ff83;
+  color: #30ff83;
+}
+
+.color-red {
+  background-color: #410e0e;
+  border: 1px solid #ff3030;
+  color: #ff3030;
+}
+
+.mines-button {
+  width: 255px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 6px;
+  font-weight: 600;
+}
+
+.mines-button.color-green:hover {
+  cursor: pointer;
+}
+
+.bomb,
+.crown {
+  animation: scale 0.5s ease-in-out;
+  -webkit-animation: scale 0.5s ease-in-out;
+}
+
+@keyframes scale {
+  0% {
+    transform: scale(0.1);
+  }
+  75% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
