@@ -3,7 +3,6 @@
 
 ## Mines minigame for Fivem
 
-
 ### Join our [Discord](https://discord.gg/FbPhBGAe8v) for more
 
 
